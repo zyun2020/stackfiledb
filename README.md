@@ -1,2 +1,3 @@
 # stackfiledb
  
+Stackfiledb stores many small files in a large file, which is a common file in the OS file system; small files can also be other binary data; Stackfiledb can be used as an object storage service. the index of the actual file is completely in memory, which can speed up the file location and reading. When data is deleted and updated, the actual data is not deleted immediately. This implementation can provide access to historical data over a period of time.
